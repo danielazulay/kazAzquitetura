@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/menu_principal">
+
+    <fragment
+    android:id="@+id/menu_principal"
+    android:name="com.example.kazarquitetura.ui.principal.principalFragment"
+    android:label="@string/menu_principal"
+    tools:layout="@layout/fragment_principal2"/>
+
+    <fragment
+        android:id="@+id/menu_servicos"
+        android:name="com.example.kazarquitetura.ui.servicos.servicosFragment"
+        android:label="@string/menu_servicos"
+        tools:layout="@layout/fragment_servicos"/>
+
+    <fragment
+        android:id="@+id/menu_email"
+        android:name="com.example.kazarquitetura.ui.email.emailFragment"
+        android:label="@string/menu_email"
+        tools:layout="@layout/fragment_email"/>
+
+    <fragment
+        android:id="@+id/menu_informacao"
+        android:name="com.example.kazarquitetura.ui.sobre.sobreFragment"
+        android:label="@string/menu_informacao"
+        tools:layout="@layout/fragment_sobre2"/>
+
+
+
+</navigation>
